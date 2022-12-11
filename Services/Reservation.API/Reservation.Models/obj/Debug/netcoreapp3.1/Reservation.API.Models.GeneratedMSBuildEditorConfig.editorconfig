@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Reservation.API.Models
+build_property.ProjectDir = C:\Users\emre.savas2\Documents\Repo\Microservice_ApiGateway_Ocelot_youtube\Services\Reservation.API\Reservation.Models\

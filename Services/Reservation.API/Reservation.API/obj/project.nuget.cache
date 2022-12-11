@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "IBq9n3ugKQZB0rU6L2WggWtqQYfjg7pxcSolgJ6t5M1vv/XPmj8BH7WTPXI++zB7AM0pdex9yukS5xqvEXnnvw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\emre.savas2\\Documents\\Repo\\Microservice_ApiGateway_Ocelot_youtube\\Services\\Reservation.API\\Reservation.API\\Reservation.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\emre.savas2\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
+    "C:\\Users\\emre.savas2\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.31\\microsoft.netcore.app.host.win-x64.3.1.31.nupkg.sha512"
+  ],
+  "logs": []
+}

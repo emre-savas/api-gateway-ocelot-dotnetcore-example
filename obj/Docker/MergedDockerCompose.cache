@@ -1,0 +1,49 @@
+services:
+  s_apigateway:
+    build:
+      context: C:\Users\emre.savas2\Documents\Repo\Microservice_ApiGateway_Ocelot_youtube
+      dockerfile: APIGateway/Dockerfile
+    container_name: c_apigateway
+    image: salihcantekin/apigateway
+    networks:
+      int_net_api: null
+      net_api: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: 80
+      protocol: tcp
+  s_contact_api:
+    build:
+      context: C:\Users\emre.savas2\Documents\Repo\Microservice_ApiGateway_Ocelot_youtube
+      dockerfile: Services/Contact.API/Contact.API/Dockerfile
+    container_name: c_contact_api
+    image: salihcantekin/contactapi
+    networks:
+      int_net_api: null
+    ports:
+    - mode: ingress
+      target: 7000
+      published: 7000
+      protocol: tcp
+  s_res_api:
+    build:
+      context: C:\Users\emre.savas2\Documents\Repo\Microservice_ApiGateway_Ocelot_youtube
+      dockerfile: Services/Reservation.API/Reservation.API/Dockerfile
+    container_name: c_res_api
+    image: salihcantekin/resapi
+    networks:
+      int_net_api: null
+    ports:
+    - mode: ingress
+      target: 7001
+      published: 7001
+      protocol: tcp
+networks:
+  int_net_api:
+    name: dockercompose13902025158971708548_int_net_api
+    driver: overlay
+    internal: true
+  net_api:
+    name: dockercompose13902025158971708548_net_api
+    driver: bridge

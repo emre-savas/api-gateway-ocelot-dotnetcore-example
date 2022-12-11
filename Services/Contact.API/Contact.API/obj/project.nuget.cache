@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "GmAbwsiV+vOJHWwW2quHAk4anvrIrIAKIU4Rn/9PxVColig0PWhIIZvf3DkGEeKUjYOVAX3LY6lmKytR8aV4/w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\emre.savas2\\Documents\\Repo\\Microservice_ApiGateway_Ocelot_youtube\\Services\\Contact.API\\Contact.API\\Contact.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\emre.savas2\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512",
+    "C:\\Users\\emre.savas2\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.31\\microsoft.netcore.app.host.win-x64.3.1.31.nupkg.sha512"
+  ],
+  "logs": []
+}
